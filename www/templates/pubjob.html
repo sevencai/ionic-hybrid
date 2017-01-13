@@ -1,0 +1,122 @@
+<ion-view view-title="pubJob">
+    <ion-header-bar  class="bar-assertive">   
+        <i class="button-icon ion-ios-arrow-left" ng-click="goBack()"></i>
+        <span class="search-title">企业发布</span>
+    </ion-header-bar> 
+    <ion-content class="index-body">
+        <div class="list list-inset">
+            <label class="item item-input">
+                <span class="input-label">公司名称</span>
+                <input type="text" placeholder="请输入公司名称">
+            </label>
+
+            <label class="item item-input">
+                <span class="input-label">招聘职位</span>
+                <input type="text" placeholder="请输入招聘职位">
+            </label>
+
+            <label class="item item-input">
+                <span class="input-label">招聘人数</span>
+                <input type="text" placeholder="请输入招聘人数">
+            </label>
+
+            <label class="item item-input item-select">
+                <span class="input-label">工期时长</span>
+                <select>
+                    <option selected>不限工期</option>
+                    <option>5天</option>
+                    <option>10天</option>
+                    <option>20天</option>
+                    <option>1个月</option>
+                    <option>1-3个月</option>
+                    <option>3-5个月</option>
+                    <option>半年以上</option>
+                    <option>一年以上</option>
+                </select>
+            </label>
+
+            <label class="item item-input item-select">
+                <span class="input-label">薪资待遇</span>
+                <input type="text" placeholder="请输入薪资">
+                <select>
+                    <option selected>/小时</option>
+                    <option>/天</option>
+                    <option>/月</option>
+                </select>
+            </label>
+
+            <div class="item item-divider">
+                <span>福利待遇</span>
+            </div>
+            <div class="item item-text-wrap">
+                <div class="row">
+                    <div class="col checkbox-left"><input type="checkbox">包吃</div>
+                    <div class="col checkbox-left"><input type="checkbox">包住</div>
+                </div>
+                <div class="row">
+                    <div class="col checkbox-left"><input type="checkbox">五险一金</div>
+                    <div class="col checkbox-left"><input type="checkbox">周末双休</div>
+                </div>
+                <div class="row">
+                    <div class="col checkbox-left"><input type="checkbox">加班补助</div>
+                    <div class="col checkbox-left"><input type="checkbox">交通补助</div>
+                </div>
+                <div class="row">
+                    <div class="col checkbox-left"><input type="checkbox">伙食补助</div>
+                </div>
+            </div>
+
+            <label class="item  item-button-right">
+                <span>工作区域</span>
+                <a class="button button-clear icon ion-ios-arrow-right"></a>
+            </label>
+
+            <label class="item item-input">
+                <span class="input-label">详细地点</span>
+                <input type="text" placeholder="请输入工作地点">
+            </label>
+
+            <label class="item item-radio">
+                <div class="list">
+                    <div class="item item-borderless item-divider"><p>性别要求</p></div>
+                    <label class="item item-radio">
+                        <input type="radio" name="sex" checked>
+                        <div class="item-content">不限</div>
+                        <i class="radio-icon ion-checkmark balanced"></i>
+                    </label>
+                    <label class="item item-borderless item-radio">
+                        <input type="radio" name="sex">
+                        <div class="item-content">男</div>
+                        <i class="radio-icon ion-checkmark balanced"></i>
+                    </label>
+                    <label class="item item-borderless item-radio">
+                        <input type="radio" name="sex">
+                        <div class="item-content">女</div>
+                        <i class="radio-icon ion-checkmark balanced"></i>
+                    </label>
+                </div>
+            </label>
+
+            <label class="item  item-button-right">
+                <span>工作类型</span>
+                <a class="button button-clear icon ion-ios-arrow-right"></a>
+            </label>
+
+            <label class="item item-input">
+                <span class="input-label">职位描述</span>
+                <input type="text" placeholder="请输入相关职位描述">
+            </label>
+
+            <label class="item  item-input">
+                <span class="input-label">联系人</span>
+                <input type="text" placeholder="请输入联系人姓名">
+            </label>
+
+            <label class="item  item-input">
+                <span class="input-label">联系电话</span>
+                <input type="text" placeholder="请输入联系电话">
+            </label>
+        </div>
+        <button class="button button-block button-assertive">发布</button>
+    </ion-content>
+</ion-view>

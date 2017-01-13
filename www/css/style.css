@@ -1,0 +1,72 @@
+*{margin:0 auto;background: white; font-family: "微软雅黑"; padding:0px;}
+
+/*----------------------begin of login.html----------------------------*/
+.item{padding:5px;}
+.margin{margin-top: 20px;}
+.padding{ background: #F9F9F9;}
+.padding .ion-person{font-size: 29px;}
+.login-way{margin-top: 30px;font-size: 12px;}
+.item img{width:30px;height: 30px;vertical-align: middle;}
+.index{background: #EEEEEE;}
+.search input{display: inline-block;}
+.index input{vertical-align: middle;}
+.index img{display: inline-block;width:50px;height: 50px;}
+.button{width:100%; background: #FC6700; border-style: none; color:white;}
+/*----------------------end of login.html-------------------------------*/
+
+/*----------------------begin of register.html---------------------------*/
+#register{margin-top: 10px;}
+.register_p{margin-top: 19px;}
+.input_style,input.input_style{height:50px;border-bottom:#B6B6B6 solid 2px;color:#8D8D8D; width:100%;}
+#content1{margin-top: 10px;height: 40px;line-height: 40px;font-size:13px;margin-left: 10px;margin-bottom: 5px;}
+#content2{margin-top: 19px;}
+#content3{height: 40px;line-height: 40px;font-size:13px;margin-left: 20px;}
+.graybt{cursor: pointer;width:25%;height:40px;background-color:#D5D7D4;float:left;text-align: center;line-height: 40px;margin-left: 25px;border-radius: 3px;font-family:'微软雅黑';font-size:10px;}
+.graybt a{background-color: #D5D7D4;}
+#content4{background: white;width: 100%;height: 100px;margin-top: 10px;border-top: 1px solid #E8E8E8;border-bottom: 1px solid #E8E8E8;}
+.content4_part{font-size:16px;background: white;margin-left: 10px;float:left;line-height: 48px;cursor: pointer;}
+/*-----------------------end of register.html---------------------------*/
+
+/*-----------------------begin of index.html---------------------------------*/
+.index-head{position: relative; overflow: hidden;}
+.index-head img{display: inline-block; position:absolute;top:0px; left:0px; width:100%; height:100%;}
+.index-head a img{width:100%;}
+.index-body .img img{height:100%;width:100%;}
+img.bottom{width:105%;height:110%;}
+.index-body .row .col{padding:0px;}
+.index-body .row .col img{width:100%; height:120%;}
+/*-----------------------end of index.html-----------------------------------*/
+
+
+/*-----------------------begin of search.html---------------------------------*/
+.search .row{padding:0px;font-size: 2px;}
+.search p{font-size: 2px;}
+.ion-ios-arrow-left{font-size: 27px; margin-top:5px;}
+.search-title{background: transparent;font-size: 17px; margin:5px auto;}
+.search .red{color:#EF473A;}
+.search .display-block{display:block;}
+.search .col-33{vertical-align: middle;}
+.search .col-33 .col-25{position: relative;}
+.search .col-33 .col-25 i{position: absolute; top:20%;background: #EF473A;color:white;padding:0px 5px;}
+.search #search-img{width:20%; height:20%;vertical-align: top;float:right;}
+.search .block span{background: #DED8D8;color:white;border-radius: 4px;padding:0px 4px;}
+.search-head .col:not(:last-child){text-align: center;border-right:1px solid #ddd;}
+.search-head .col select{border-style: none;}
+/*-----------------------end of search.html-----------------------------------*/
+
+/*-----------------------begin of tab-account.html---------------------------------*/
+.index-head{background:#F6F6F6;}
+.index-head .h_1{width: 37%;height:100%;background: #F6F6F6;text-align: right;}
+.index-head .h_1 h4{background: #F6F6F6;margin-top: 7px;}
+.index-head .h_1 img{width: auto;height: auto;margin-top: 7px;margin-left: 10px; background: #F6F6F6;}
+.index-head .h_2 img{width: auto;height:auto;background: #F6F6F6;margin-top: 7px;margin-left:75%;}
+.index-head .h_3 img{width: auto;height:auto;background: #F6F6F6;margin-top: 7px;margin-left:88%;}
+.subheader {background:url(../img/back.jpg) 0 0 no-repeat;width: 100%;height:auto;background-size: 100% 100%;}
+.subheader .sh_1{background:rgba(0,0,0,0);}
+.subheader .sh_1 img{width:80px;height:80px;border-radius:40px;margin-top: 12%;margin-left: 7%;}
+.subheader .sh_2 img{width:60px;height:14px;border-radius:10px;background: white;display: block;margin-left: 10%;}
+.subheader .row{width:70%;float: right;margin-top: -19%;font-size: 12px;background:rgba(0,0,0,0);}
+.subheader .row .col{background:rgba(0,0,0,0);border-right: 1px solid black;}
+.list{clear: both;}
+.list .item .item-divider .item-light .item-button-right img{width:30px;height:18px;}
+/*-----------------------end of tab-account.html---------------------------------*/

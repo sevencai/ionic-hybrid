@@ -1,0 +1,21 @@
+<ion-view view-title="登陆">
+	<ion-content class="padding">
+		<div class="dropdown item-input input_style" dropdown>
+			<i class="ion-person icon-left"></i>&nbsp;&nbsp;&nbsp;
+			<input type="text" placeholder="手机号/用户名" ng-model="username">
+		</div>		
+		<button class="button margin" ng-click="login(username)">登陆</button>
+		<button class="button margin" ng-click="register()">注册</button>
+		<p class="login-way">用以下方式登陆</p>
+		<div class="list">
+			<a class="item" href="#"> 
+				<img src="img/login_weibo.png" alt="新浪">
+				新浪微博
+			</a>
+			<a class="item" href="#">
+				<img src="img/login_qq.png" alt="QQ">
+				QQ
+			</a>
+		</div>
+	</ion-content>
+</ion-view>

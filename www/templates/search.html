@@ -1,0 +1,63 @@
+<ion-view view-title="登陆">
+	<ion-header-bar  class="bar-assertive">   
+	    <i class="button-icon ion-ios-arrow-left" ng-click="goBack()"></i>
+	    <span class="search-title">工邦</span>
+	</ion-header-bar>  	  
+    <ion-header-bar class="bar-subheader bar-stable search-head">  
+        <div class="row">
+        	<div class="col">
+				<select name="" id="" ng-model="area" ng-options="areas.name for areas in areas" ng-change="switchStreet()">
+					<option value="" ng-mouseover="mouseoveroption()">区域</option>
+				</select>
+
+        	</div>
+        	<div class="col">
+        		<select name="" id="" ng-model="worktype" ng-options="areas.name for areas in areas" ng-change="switchStreet()">
+					<option value="">类型</option>
+				</select>
+
+        	</div>
+        	<div class="col">
+        		<select name="" id="" ng-model="wage" ng-options="areas.name for areas in areas" ng-change="switchStreet()">
+					<option value="">工薪</option>
+				</select>
+        	</div>
+        	<div class="col">
+        		<select name="" id="" ng-model="workType" ng-options="areas.name for areas in areas" ng-change="switchStreet()">
+					<option value="">工期</option>
+				</select>
+        	</div>
+        </div>
+    </ion-header-bar>  
+	<ion-content class="padding search">
+		<ion-refresher pulling-text="下拉刷新.." on-refresh="doFresh()"></ion-refresher>
+		<ion-list>
+			<ion-item ng-repeat="work in works" class="work-item">
+				<span>{{work.company}}</span>
+				<img src="{{work.face}}" id="search-img" alt="">	
+				<div class="row">
+					<div class="col-67">
+						<span class="red">公司未认证</span>						
+						<div class="block">
+							<span>{{work.type}}(招37人)</span>
+						</div>						
+					</div>
+					<div class="col-33">
+						<div class="row">
+							<div class="col-75">
+								<p>点击数：{{work.click}}</p>
+								<p>{{work.time}}</p>
+							</div>
+							<div class="col-25">
+								<i class="ion-plus"></i>
+							</div>
+						</div>		
+					</div>	
+				</div>													
+			</ion-item>
+		</ion-list>
+		<div class="buttons">
+		  	<button class="button" ng-click="scrollTop()">返回顶部</button>
+		</div>
+	</ion-content>
+</ion-view>

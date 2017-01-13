@@ -1,0 +1,36 @@
+<ion-view view-title="登陆">
+	<ion-content class="padding">
+		<form id="register">
+		    <div>
+		    	<input id="phonenumber" placeholder="请输入要注册的手机号" type="text"  style="width:60%; float:left;" class="input_style"/>
+		    	<a herf="#">
+		    		<div class="graybt">获取验证码</div>
+		    	</a>
+		    </div>
+		    <div>
+		    	<input class="input_style" id="checknumber" placeholder="请输入验证码" type="text" style="width:97%;" />
+		    </div>
+		    <div id="content2">
+				注册类型&nbsp;&nbsp;
+				<input type="radio" checked="checked" name="zclx" value="mg" />&nbsp;&nbsp;民工
+				<input type="radio" name="zclx" value="qy" />&nbsp;&nbsp;企业
+				<input type="radio" name="zclx" value="yz" />&nbsp;&nbsp;业主
+				<input type="radio" name="zclx" value="gt" />&nbsp;&nbsp;工头
+		    </div>	
+		    <hr style="height:1px;border:none;border-top:1px solid #ddd;width:100%; margin-top:15px;" />			
+			<p class="register_p">点击注册即表示同意民工之家注册协议</div>
+			<button class="button margin" ng-click="register()">注册</button>
+		</form>
+		<p class="login-way">用以下方式注册</p>
+	    <div class="list">
+			<a class="item" href="#"> 
+				<img src="img/login_weibo.png" alt="新浪">
+				新浪微博
+			</a>
+			<a class="item" href="#">
+				<img src="img/login_qq.png" alt="QQ">
+				QQ
+			</a>
+	    </div>
+	</ion-content>
+</ion-view>
